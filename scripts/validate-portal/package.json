@@ -1,0 +1,14 @@
+{
+  "name": "forensic-lab-validate-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright-based Azure Portal screenshots for forensic storage lab validation",
+  "scripts": {
+    "pretest": "powershell -NoProfile -Command \"$p=if($env:EDGE_PROFILE){$env:EDGE_PROFILE}else{'Profile 4'};$s=\\\"$env:LOCALAPPDATA\\Microsoft\\Edge\\User Data\\$p\\\";$d='%TEMP%\\pw-edge-profile-copy';if(Test-Path $d){Remove-Item $d -Recurse -Force};New-Item $d -ItemType Directory -Force|Out-Null;@('Network','Local Storage','Session Storage','IndexedDB','databases')|ForEach-Object{if(Test-Path $s\\$_){robocopy $s\\$_ $d\\$_ /MIR /R:0 /W:0 /NFL /NDL /NJH /NJS /NC /NS /NP 2>$null|Out-Null}};@('Preferences','Secure Preferences','Login Data','Web Data')|ForEach-Object{if(Test-Path $s\\$_){Copy-Item $s\\$_ $d\\$_ -Force -ErrorAction SilentlyContinue}}\"",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0"
+  }
+}

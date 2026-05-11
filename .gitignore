@@ -1,0 +1,27 @@
+# Customer-specific data - never commit
+private/
+
+# Local certificates and secrets
+config/*.pfx
+config/*.pem
+config/*.key
+config/*.crt
+
+# Python packages (installed locally for function deployment)
+.python_packages/
+__pycache__/
+
+# Local temp files
+*.tmp
+
+# Bicep compiled output
+infra/*.json
+
+# Playwright
+scripts/validate-portal/node_modules/
+scripts/validate-portal/.auth/
+validation-output/
+test-results/
+
+# Environment-specific local config
+config/*.xml

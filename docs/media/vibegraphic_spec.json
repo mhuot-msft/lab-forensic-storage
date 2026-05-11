@@ -1,0 +1,48 @@
+{
+  "projectTitle": "Forensic Storage Lab",
+  "oneLiner": "Secure, Immutable, and Auditable Azure-Native Forensic Evidence Storage",
+  "sections": [
+    {
+      "title": "Architecture",
+      "content": "VNet-isolated ADLS Gen2 storage with Private Endpoints and event-driven automation via Azure Functions.",
+      "icon": "network"
+    },
+    {
+      "title": "Immutability",
+      "content": "Enterprise-grade WORM policies with configurable time-based retention (365 days by default) and Legal Holds that preserve evidence until explicitly released.",
+      "icon": "lock"
+    },
+    {
+      "title": "Chain of Custody",
+      "content": "Automated SHA-256 cryptographic hashing with immutable JSON receipts for a verifiable and defensible audit trail.",
+      "icon": "receipt"
+    },
+    {
+      "title": "Audit & Compliance",
+      "content": "90-day Log Analytics retention, Defender for Storage malware detection, and seamless SIEM/Event Hub integration.",
+      "icon": "shield"
+    }
+  ],
+  "callouts": [
+    "WORM & Legal Hold",
+    "Automated SHA-256 Receipts",
+    "Entra ID RBAC (Zero Keys)",
+    "Hot-to-Archive Tiering"
+  ],
+  "palette": {
+    "primary": "#2B6CB0",
+    "secondary": "#2F855A",
+    "accent": "#C05621",
+    "background": "#F7FAFC"
+  },
+  "motifs": [
+    "schematic lines",
+    "circuit patterns",
+    "shield icons",
+    "lock symbols",
+    "network nodes"
+  ],
+  "imagePrompt": "A professional, clean, and minimal corporate infographic poster for 'Forensic Storage Lab'. The design features a central technical schematic of a cloud storage architecture with interconnected nodes representing 'WORM Immutability', 'SHA-256 Hashing', and 'Audit & Compliance'. Uses a palette of corporate blues (#2B6CB0), forest greens (#2F855A), and burnt orange accents (#C05621) on a light grey background (#F7FAFC). Minimalist flat design icons for locks, shields, and networks. Sharp, precise schematic lines connect the components, with plenty of white space and professional, bold typography.",
+  "animationPrompt": "Subtle pulsing light following the schematic lines of the infographic. The icons for 'Immutability' and 'Audit & Compliance' gently glow. A slow, smooth pan across the technical details of the architecture, highlighting the 'SHA-256' and 'WORM' labels as they appear.",
+  "voiceoverScript": "Welcome to the Forensic Storage Lab. This Azure-based solution ensures your forensic evidence remains immutable and auditable. From automated SHA-256 hashing to multi-tier lifecycle management and WORM protection, we provide a defensible chain of custody in the cloud."
+}

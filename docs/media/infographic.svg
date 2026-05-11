@@ -1,0 +1,83 @@
+<svg width="800" height="850" viewBox="0 0 800 850" xmlns="http://www.w3.org/2000/svg">
+  <!-- Professional Forensic Storage Lab Infographic -->
+  
+  <!-- Background -->
+  <rect width="800" height="850" fill="#F7FAFC" />
+  
+  <!-- Header Section -->
+  <rect width="800" height="160" fill="#2B6CB0" />
+  <text x="400" y="75" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FORENSIC STORAGE LAB</text>
+  <text x="400" y="115" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="300" fill="#E2E8F0" text-anchor="middle">Secure, Immutable, and Auditable Evidence Storage</text>
+  
+  <rect x="350" y="135" width="100" height="4" rx="2" fill="#C05621" />
+
+  <!-- Main Grid Layout -->
+  
+  <!-- 1. Architecture -->
+  <g transform="translate(55, 200)">
+    <rect width="330" height="260" rx="10" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2" />
+    <rect width="330" height="50" rx="10" fill="#2B6CB0" />
+    <rect y="40" width="330" height="10" fill="#2B6CB0" /> <!-- Square off the bottom of the header -->
+    
+    <text x="165" y="32" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Architecture</text>
+    
+    <foreignObject x="25" y="75" width="280" height="160">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6; color: #2D3748;">
+        VNet-isolated <strong>ADLS Gen2</strong> storage with <strong>Private Endpoints</strong> for zero public exposure and strict network boundary control.
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- 2. Immutability -->
+  <g transform="translate(415, 200)">
+    <rect width="330" height="260" rx="10" fill="#FFFFFF" stroke="#2F855A" stroke-width="2" />
+    <rect width="330" height="50" rx="10" fill="#2F855A" />
+    <rect y="40" width="330" height="10" fill="#2F855A" />
+    
+    <text x="165" y="32" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Immutability</text>
+    
+    <foreignObject x="25" y="75" width="280" height="160">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6; color: #2D3748;">
+        Enterprise-grade <strong>WORM policies</strong> and <strong>Legal Holds</strong> to prevent any accidental or malicious alteration of forensic data.
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- 3. Chain of Custody -->
+  <g transform="translate(55, 500)">
+    <rect width="330" height="260" rx="10" fill="#FFFFFF" stroke="#C05621" stroke-width="2" />
+    <rect width="330" height="50" rx="10" fill="#C05621" />
+    <rect y="40" width="330" height="10" fill="#C05621" />
+    
+    <text x="165" y="32" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Chain of Custody</text>
+    
+    <foreignObject x="25" y="75" width="280" height="160">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6; color: #2D3748;">
+        Automated <strong>SHA-256 cryptographic hashing</strong> with <strong>immutable JSON receipts</strong> for verifiable integrity and custody tracking.
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- 4. Audit & Compliance -->
+  <g transform="translate(415, 500)">
+    <rect width="330" height="260" rx="10" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2" />
+    <rect width="330" height="50" rx="10" fill="#2B6CB0" />
+    <rect y="40" width="330" height="10" fill="#2B6CB0" />
+    
+    <text x="165" y="32" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Audit &amp; Compliance</text>
+    
+    <foreignObject x="25" y="75" width="280" height="160">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6; color: #2D3748;">
+        <strong>90-day Log Analytics</strong>, real-time threat detection via <strong>Defender for Storage</strong>, and <strong>SIEM integration</strong> for continuous monitoring.
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Decorative Connections -->
+  <line x1="400" y1="330" x2="400" y2="760" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="5,5" />
+  <line x1="55" y1="480" x2="745" y2="480" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="5,5" />
+
+  <!-- Footer -->
+  <rect x="0" y="800" width="800" height="50" fill="#2B6CB0" opacity="0.05" />
+  <text x="400" y="830" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#718096" text-anchor="middle" letter-spacing="0.5">AZURE FORENSIC STORAGE — REFERENCE ARCHITECTURE</text>
+</svg>
