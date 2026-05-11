@@ -21,11 +21,10 @@
     
     <text x="165" y="32" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Architecture</text>
     
-    <foreignObject x="25" y="75" width="280" height="160">
-      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6; color: #2D3748;">
-        VNet-isolated <strong>ADLS Gen2</strong> storage with <strong>Private Endpoints</strong> for zero public exposure and strict network boundary control.
-      </div>
-    </foreignObject>
+    <text x="25" y="95" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2D3748">ADLS Gen2 evidence storage</text>
+    <text x="25" y="125" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2D3748">secured with blob + dfs</text>
+    <text x="25" y="155" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2D3748">private endpoints and zero</text>
+    <text x="25" y="185" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2D3748">public exposure.</text>
   </g>
 
   <!-- 2. Immutability -->
@@ -36,11 +35,10 @@
     
     <text x="165" y="32" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Immutability</text>
     
-    <foreignObject x="25" y="75" width="280" height="160">
-      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6; color: #2D3748;">
-        Enterprise-grade <strong>WORM policies</strong> and <strong>Legal Holds</strong> to prevent any accidental or malicious alteration of forensic data.
-      </div>
-    </foreignObject>
+    <text x="25" y="95" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2D3748">WORM retention and</text>
+    <text x="25" y="125" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2D3748">legal holds preserve</text>
+    <text x="25" y="155" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2D3748">evidence against deletion</text>
+    <text x="25" y="185" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2D3748">or modification.</text>
   </g>
 
   <!-- 3. Chain of Custody -->
@@ -51,11 +49,10 @@
     
     <text x="165" y="32" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Chain of Custody</text>
     
-    <foreignObject x="25" y="75" width="280" height="160">
-      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6; color: #2D3748;">
-        Automated <strong>SHA-256 cryptographic hashing</strong> with <strong>immutable JSON receipts</strong> for verifiable integrity and custody tracking.
-      </div>
-    </foreignObject>
+    <text x="25" y="95" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2D3748">Event Grid triggers</text>
+    <text x="25" y="125" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2D3748">SHA-256 hashing and</text>
+    <text x="25" y="155" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2D3748">writes immutable JSON</text>
+    <text x="25" y="185" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2D3748">receipts for verification.</text>
   </g>
 
   <!-- 4. Audit & Compliance -->
@@ -66,11 +63,10 @@
     
     <text x="165" y="32" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Audit &amp; Compliance</text>
     
-    <foreignObject x="25" y="75" width="280" height="160">
-      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6; color: #2D3748;">
-        <strong>90-day Log Analytics</strong>, real-time threat detection via <strong>Defender for Storage</strong>, and <strong>SIEM integration</strong> for continuous monitoring.
-      </div>
-    </foreignObject>
+    <text x="25" y="95" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2D3748">StorageBlobLogs capture</text>
+    <text x="25" y="125" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2D3748">identity and operations,</text>
+    <text x="25" y="155" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2D3748">including failed deletes,</text>
+    <text x="25" y="185" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2D3748">Defender, and SIEM export.</text>
   </g>
 
   <!-- Decorative Connections -->
