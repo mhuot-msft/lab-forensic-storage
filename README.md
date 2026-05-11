@@ -45,10 +45,11 @@ flowchart TB
     DEF --> ALERT
     LA --> EH
 
-    style Investigator fill:#2B6CB0,stroke:#1A4971,color:#FFFFFF
-    style Storage fill:#6B46C1,stroke:#4A3080,color:#FFFFFF
-    style Automation fill:#2F855A,stroke:#1E5A3A,color:#FFFFFF
-    style Security fill:#C05621,stroke:#8B3E18,color:#FFFFFF
+    linkStyle default stroke:#2D3748,stroke-width:3px
+    style Investigator fill:#2B6CB0,stroke:#1A4971,stroke-width:3px,color:#FFFFFF
+    style Storage fill:#6B46C1,stroke:#4A3080,stroke-width:3px,color:#FFFFFF
+    style Automation fill:#2F855A,stroke:#1E5A3A,stroke-width:3px,color:#FFFFFF
+    style Security fill:#C05621,stroke:#8B3E18,stroke-width:3px,color:#FFFFFF
 ```
 
 ## Chain-of-Custody Flow
